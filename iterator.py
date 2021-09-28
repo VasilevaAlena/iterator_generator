@@ -23,7 +23,6 @@ class UrlWiki:
             country_page = wiki.page(country_names)
             country_link = country_page.fullurl
             recording = f'{country_names} - {country_link}'
-
         return recording
 
 
